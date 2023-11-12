@@ -40,3 +40,79 @@
 .navbar .navlinks li >a:hover {
     border-bottom: 2px solid rgb(0, 102, 255);
 }
+/* styling the Loby section*/
+/*left side of the loby*/
+.loby {
+    display: flex;
+    width: 100%;
+}
+
+.loby .leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.loby .leftSide .lobyWelcomingSentence {
+    font-size: 45px;
+    font-family: kanit;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-left: -60px;
+}
+.loby .leftSide .lobyWelcomingSentence span {
+    color: rgb(0, 102, 255);
+}
+
+.loby .leftSide .contactBtn {
+    width: 120px;
+    height: 37px;
+    border-radius: 7px;
+    background-color:rgb(0, 102, 255) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 250;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -265px;
+    margin-top: 40px;
+}
+.loby .leftSide .contactBtn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+/*styling the right side*/
+.rightSide {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/*personal Picture*/
+.rightSide .profilePic {
+    width: 400px;
+    height: 400px;
+    background-image: url("/assets/img/20220429_014233\ \(1\).jpg");
+    border-radius: 68% 27% 46% 50% / 40% 34% 58% 52% ;
+    background-size: cover;
+    background-position: center;
+}
+/* styling footer social media icons*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.footer a {
+    color: black;
+}
+.footer a:hover {
+    color: rgb(0, 102, 255);
+}
