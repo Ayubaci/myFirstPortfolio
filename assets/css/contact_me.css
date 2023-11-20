@@ -1,33 +1,106 @@
-/*start styling header section*/
-.header_and_navbar .header_logo_and_toggle_btn {
+body {
+    background-color: rgba(201, 201, 201, 0.658);
+}
+
+/* start the global styling of our card*/
+.contact-card {
+    background-color: white;
+    width: 80%;
     display: flex;
-    background-color: rgba(29, 133, 117, 0.616);
-    width: 100%;
-    height: 35px;
-    align-items: center;
-    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 15px;
 }
 
-.header_and_navbar .header_logo_and_toggle_btn .logo {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-left: 20px;
-}
-
-.header_and_navbar .header_logo_and_toggle_btn .toggle_btn {
+.contact-card .contact-info {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-    margin-top: 5px;
-} 
-
-.header_and_navbar .header_logo_and_toggle_btn .toggle_btn span {
-    width: 35px;
-    height: 2px;
-    background-color: white;
-    margin-bottom: 5px;
-    border-radius: 2px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgba(82, 82, 82, 0.425);
 }
-/*end styling header section*/
+
+.contact-card .contact-info .a-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-card .contact-info .a-contact-info i{
+    color: rgb(0, 119, 255);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.a-contact-info p{
+    color: grey;
+    margin-top: 5px;
+}
+
+/*start styling contact form*/
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+form h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+form p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 82, 82);
+    margin-bottom: 10px;
+}
+form input {
+    margin-top: 8px;
+    height: 35px;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+form textarea {
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.205);
+    margin-top: 10px;
+    padding: 4px ;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+form a:hover {
+    background-color: rgba(128, 128, 128, 0.432);
+}
+/* end the global styling of our card*/

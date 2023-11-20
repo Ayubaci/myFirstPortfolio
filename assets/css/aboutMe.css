@@ -1,3 +1,6 @@
+body {
+    background-color: rgba(128, 128, 128, 0.11);
+}
 .aboutMeSection {
     display: flex;
     width: 100%;
@@ -17,28 +20,28 @@
     border: 6px solid rgba(90, 90, 90, 0.842);
     background-size: cover;
 }
-.aboutMeSection .aboutMeCaption {
+.aboutMeSection .aboutMep {
     width: 60%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-left: 2px solid rgba(128, 128, 128, 0.534);
     padding-left: 10px;
 }
-.aboutMeSection .aboutMeCaption i{
+.aboutMeSection .aboutMep i{
     color: rgb(0, 140, 255);
     margin-bottom: 5px;
 }
-.aboutMeSection .aboutMeCaption .heading {
+.aboutMeSection .aboutMep .heading {
     margin-top: 3px;
 }
-.aboutMeSection .aboutMeCaption .greyInfo {
+.aboutMeSection .aboutMep .greyInfo {
     color: rgba(128, 128, 128, 0.541);
 }
-.aboutMeSection .aboutMeCaption .work , .certificate {
+.aboutMeSection .aboutMep .work , .certificate {
     color: rgb(92, 92, 92);
     font-weight: bold;
 }
 
-.aboutMeSection .aboutMeCaption .downloadBtn , .contactBtn {
+.aboutMeSection .aboutMep .downloadBtn , .contactBtn {
     width: 150px;
     height: 40px;
     background-color: rgb(0, 110, 255);
@@ -49,7 +52,7 @@
     padding: 8px;
     font-weight: bold;
 }
-.aboutMeSection .aboutMeCaption .downloadBtn:hover , .contactBtn:hover {
+.aboutMeSection .aboutMep .downloadBtn:hover , .contactBtn:hover {
     background-color: rgba(156, 156, 156, 0.753);
     color: black;
 }
