@@ -1,0 +1,55 @@
+.navbar .navlinks{
+    display: none;
+}
+
+:root {
+    --main-font : monospace;
+}
+
+/* start skills section*/
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.skills-section h2 {
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.skills-section .a-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills-section .a-skill i{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.skills-section .a-skill .html{
+    color: orangered;
+}
+.skills-section .a-skill .css{
+    color: blue;
+}
+.skills-section .a-skill .js{
+    color: yellow;
+}
+.skills-section .a-skill .react{
+    color: rgb(0, 217, 255);
+}
+.skills-section .a-skill .sass{
+    color: rgb(255, 0, 0);
+}
+/* end skills section*/
